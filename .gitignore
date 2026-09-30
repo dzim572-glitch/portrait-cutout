@@ -1,0 +1,30 @@
+# 模型文件太大（168MB），不提交，由脚本首次运行时自动下载
+*.onnx
+*.onnx.part
+models/
+!models/.gitkeep
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# 处理结果，避免把测试用的图片提交上来
+*_抠图.png
+*_koutu.png
+
+# 个人图片与临时文件：绝不提交
+*.jpg
+*.jpeg
+*.webp
+*.tif
+*.tiff
+*demo*
+test*.png
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
